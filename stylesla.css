@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: image(pexels-jason-tsang-6161804jpg);
+}
+.header{
+    background-color: rgb(22, 22, 61);
+    color: aliceblue;
+}
+.nav-header{
+    display: flexbox;
+    width: 100%;
+    height: 130px;
+    background-color: grey;
+    padding: 10px;
+}
+.head-logo{
+    display: inline;
+    float: left;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 25px;
+}
+ul{
+    margin-top: 0px;
+    display: inline;
+    float: right;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0px 10px;
+}
+.intro{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(42, 42, 87);
+    margin: 0px;
+    width: 100%;
+    height: 200px;
+}
+.intro #intro{
+    width: 350px;
+    height: auto;
+    margin-right: 40px;
+    float: left;
+}
+.intro .first{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 35px;
+}
+button{
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    padding: 10px;
+    font-size: large;
+    border-radius: 20%;
+}
+.intro .second{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.imagee{
+    float: right;
+    height: 180px;
+    width: 300px;
+}
+#bai{
+    background-color: rgb(52, 21, 82);
+    height: 350px;
+}
+h1{
+    text-align: center;
+}
+#para2{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+}
+.container .card{
+    height: 100%;
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 2px;
+    background-color: grey;
+    border: 3px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(226, 43, 43);
+    border-radius: 8%;
+}
+.cardpics{
+    height: 140px;
+    width: 100%;
+    border-radius: 8%;
+}
+.stuff p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.maner{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.test{
+    width: 500px;
+    color: red;  
+    text-align: center;
+   
+}
+.para5{
+    height: 400px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid grey;
+    
+}
+.sen2{
+    display: inline-block;
+    width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#onn{
+    font-size: 40px;
+    font-weight: bold;
+    color: darkorange;
+}
+#inn{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: chartreuse;
+}
+button{
+    display: inline-block;
+    width: 150px;
+    border-radius: 20px;
+}
